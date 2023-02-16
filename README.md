@@ -15,6 +15,9 @@ m.assign(m * self.beta_2 + gradient * (1 - self.beta_2))
 I've never tested the implementation yet.
 
 ### Usage
+```bash
+$ pip install lion-tf
+```
 ```python
 import tensorflow as tf
 from tensorflow.keras import layers, models
